@@ -6,8 +6,8 @@ import './App.css'
 // import MyClock from './02/MyClock'
 import { RiHomeHeartFill } from 'react-icons/ri'
 // import MyDiv1 from './03/MyDiv1'
-import MyList from './04/MyList'
-
+// import MyList from './04/MyList'
+import Lotto from './05/Lotto'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,7 +20,8 @@ function App() {
         </header>
         <main className='grow w-full flex justify-center items-center overflow-y-auto'>
           {/* <MyDiv1 /> */}
-          <MyList />
+          {/* <MyList /> */}
+          <Lotto />
         </main>
         <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
           email: wlgusehd3@naver.com
