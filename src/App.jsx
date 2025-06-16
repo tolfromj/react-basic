@@ -11,7 +11,8 @@ import * as ri from 'react-icons/ri'
 // import Counter from './Counter'
 // import Traffic from './06/Traffic'
 // import MyRef from './07/MyRef'
-import MyRefAdd from './07/MyRefAdd'
+// import MyRefAdd from './07/MyRefAdd'
+import Gallery from './08/Gallery'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -30,7 +31,8 @@ function App() {
           {/* <Counter /> */}
           {/* <Traffic /> */}
           {/* <MyRef /> */}
-          <MyRefAdd />
+          {/* <MyRefAdd /> */}
+          <Gallery />
         </main>
         <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
           email: wlgusehd3@naver.com
