@@ -3,12 +3,13 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 // import Hello from './01/Hello'
-import MyClock from './02/MyClock'
+// import MyClock from './02/MyClock'
 import * as ri from 'react-icons/ri'
 // import MyDiv1 from './03/MyDiv1'
 // import MyList from './04/MyList'
 // import Lotto from './05/Lotto'
 // import Counter from './Counter'
+import Traffic from './06/Traffic'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -23,8 +24,9 @@ function App() {
           {/* <MyDiv1 /> */}
           {/* <MyList /> */}
           {/* <Lotto /> */}
-          <MyClock />
+          {/* <MyClock /> */}
           {/* <Counter /> */}
+          <Traffic />
         </main>
         <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
           email: wlgusehd3@naver.com

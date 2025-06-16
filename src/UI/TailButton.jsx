@@ -1,3 +1,4 @@
+import React from 'react'
 
 export default function TailButton({caption, bcolor, handleClick}) {
   const colorB = {
