@@ -9,7 +9,8 @@ import * as ri from 'react-icons/ri'
 // import MyList from './04/MyList'
 // import Lotto from './05/Lotto'
 // import Counter from './Counter'
-import Traffic from './06/Traffic'
+// import Traffic from './06/Traffic'
+import MyRef from './07/MyRef'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -26,7 +27,8 @@ function App() {
           {/* <Lotto /> */}
           {/* <MyClock /> */}
           {/* <Counter /> */}
-          <Traffic />
+          {/* <Traffic /> */}
+          <MyRef />
         </main>
         <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
           email: wlgusehd3@naver.com
