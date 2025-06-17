@@ -19,6 +19,21 @@ export default function RouterHome() {
           </ul>
         </div>
       </div>
+      <div className="w-1/2 grid grid-col m-10">
+        <div className="w-full flex flex-col justify-start items-center
+                        text-xl m-2 p-2">
+          <h2>
+            page2 값전달
+          </h2>
+          <ul>
+            {/* <li><Link to='/p2?item=🍎'>사과🍎</Link></li>
+            <li><Link to='/p2?item=🍌'>바나나🍌</Link></li>
+            <li><Link to='/p2?item=🥕'>당근🥕</Link></li> */}
+
+            <li><Link to='/p2?item1=🍎&item2=🥕&item3=🍌'>사과🍎,당근🥕,바나나🍌</Link></li>
+          </ul>
+        </div>
+      </div>
     </div>
   )
 }

@@ -4,7 +4,7 @@
 import './App.css'
 // import Hello from './01/Hello'
 // import MyClock from './02/MyClock'
-import RiHomeHeartFill from 'react-icons/ri'
+import {RiHomeHeartFill} from 'react-icons/ri'
 // import MyDiv1 from './03/MyDiv1'
 // import MyList from './04/MyList'
 // import Lotto from './05/Lotto'
