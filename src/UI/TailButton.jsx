@@ -18,7 +18,9 @@ export default function TailButton({caption, bcolor, handleClick}) {
                        text-white font-bold
                        ${colorB[bcolor]}
                        ${colorBHover[bcolor]}`}
-            onClick = {handleClick} >
+            onClick = {handleClick} 
+            type="button">
+            
         {caption}
     </button>
   )
