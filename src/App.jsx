@@ -1,6 +1,6 @@
 import './App.css'
 import {RiHomeHeartFill} from 'react-icons/ri'
-// import Counter from './Counter'
+import { FaGithub } from "react-icons/fa";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
@@ -83,7 +83,7 @@ function App() {
           </Routes>
         </main>
         <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
-          email: wlgusehd3@naver.com
+          <FaGithub className="mr-2"/> <span>https://github.com/tolfromj</span>
         </footer>
       </div>
     </BrowserRouter>
