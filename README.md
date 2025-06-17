@@ -1,10 +1,11 @@
 # vite-react-basic
-#### 인프런에서 제공하는 부산대학교 소프트웨어융합교육원의 리액트 기초 (Introduction to React) 강의를 수강하면서 직접 작성.
+#### 인프런 - 리액트 기초 - 부산대학교 소프트웨어융합교육원 
+강의 수강하면서 직접 작성.
 #### 강의 주소:  https://inf.run/tTz1Z
 - vite로 프로젝트 시작하기
 ```
 $ npm create vite@latest
-$ npm create vite@latest my-vue-app -- --template react
+$ npm create vite@latest my-react-app -- --template react
 ```
 # Recoil
 - Recoil은 react 18까지만 공식 지원함. (19 버전에서 에러 발생함)
