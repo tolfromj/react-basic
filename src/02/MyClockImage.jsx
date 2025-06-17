@@ -1,4 +1,4 @@
-import clock from './clock.png'
+import clock from '/clock.png'
 import styles from './MyClockImage.module.css'
 function MyClockImage() {
 
