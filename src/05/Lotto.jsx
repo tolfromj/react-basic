@@ -1,5 +1,5 @@
 import TailButton from "./TailButton"
-import Ball from "./ball";
+import Ball from "./Ball";
 import { useState } from "react";
 export default function Lotto() {
     const [tags, setTags] = useState();
