@@ -56,9 +56,12 @@ npm install -g json-server
 npx json-server --watch db.json --port 3005
 ```
 
-# 웹 서버 실행
+# 웹 서버 및 json-server실행
 
 ```
+// json-server 실행
+npx json-server --watch db/db.json --port 3005
+
 // 웹서버 실행
 npm run dev
 ```
