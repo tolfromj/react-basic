@@ -2,6 +2,22 @@
 #### 인프런 - 리액트 기초 - 부산대학교 소프트웨어융합교육원 
 강의 수강하면서 따라 작성함.
 #### 강의 주소:  https://inf.run/tTz1Z
+
+# node manager: fnm 설치하기
+nvm나 특정 node 버전을 직접 설치한 경우 기존 node를 지우고, nvm보다 빠른 fnm을 사용해보자.
+https://github.com/Schniz/fnm?tab=readme-ov-file
+
+fnm 설치 후 ./zshrc에 아래 코드를 추가하자.
+```
+eval "$(fnm env --use-on-cd)"
+```
+
+프로젝트별로 서로 다른 node버전을 관리하기 편해진다.
+각 프로젝트 최상단 디렉토리에 아래와 같이 .node-version을 명시해준다.
+그러면 알아서 프로젝트별로 .node-version을 참고하여 적용해준다. 
+```
+node --version > .node-version
+```
 - vite로 프로젝트 시작하기
 ```
 $ npm create vite@latest
